@@ -1,7 +1,8 @@
 # Rails-back-end app
 
 A simple rails API project that displays randomly selected greetings.
-[Front-End](https://github.com/frank1738/-hello-react-front-end.git)
+
+- [Front-End](https://github.com/frank1738/-hello-react-front-end.git)
 
 ## Built With
 
