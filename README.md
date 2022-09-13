@@ -1,62 +1,68 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Rails-back-end app
 
-# Project Name
+A simple rails API project that displays randomly selected greetings.
 
-> Description the project.
-
+- [Front-End](https://github.com/frank1738/-hello-react-front-end.git)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Ruby on Rails
+- PostgreSQL
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
+- [Install Ruby on Rails](https://guides.rubyonrails.org/v5.1/getting_started.html)
+- Clone [this repository](https://github.com/frank1738/hello-rails-back-end.git))
+  ```
+  git clone https://github.com/frank1738/hello-rails-back-end.git
+  ```
+- To get started, In the root directory run:
 
+  ```
+  gem install bundler
+  ```
 
-To get a local copy up and running follow these simple example steps.
+  Then run:
 
-### Prerequisites
+  ```
+  bundle install
+  ```
 
-### Setup
+  To start the server run:
 
-### Install
+  ```
+  rails s
+  ```
 
-### Usage
+  Open the browser with `localhost:3000`
 
-### Run tests
+## After installing bundle
 
-### Deployment
+Please run the following commands `rails db:create` `rails db:migrate` `rails db:seed` `rails s`
 
+### To track linter errors locally follow these steps:
 
+Track linter errors run:
 
-## Authors
+```
+rubocop
+```
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Frankline osoro
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@frank1738](https://github.com/frank1738)
+- Twitter: [@frankhiggins08](https://twitter.com/frankhiggins08)
+- LinkedIn: [Frankline Osoro](http://www.linkedin.com/in/frankline-osoro-b526ba18b)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/frank1738/hello-rails-back-end/issues)
 
 ## Show your support
 
@@ -64,12 +70,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+- Thanks to my coding partners.
